@@ -1,0 +1,168 @@
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fff0f6;
+  color: #4a2a37;
+}
+
+header {
+  border-bottom: 1px solid #f3b8d0;
+  background: #ffffff;
+}
+
+nav {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  padding: 16px 20px;
+  flex-wrap: wrap;
+}
+
+nav button {
+  border: 0;
+  background: transparent;
+  color: #4a2a37;
+  padding: 10px 14px;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 6px;
+}
+
+nav button:hover {
+  background: #ffdeeb;
+}
+
+nav button.ativo {
+  background: #d6336c;
+  color: #ffffff;
+}
+
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 30px;
+  color: #a61e4d;
+}
+
+p {
+  line-height: 1.6;
+}
+
+.acoes {
+  margin-top: 24px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.botao {
+  border: 1px solid #d6336c;
+  background: #d6336c;
+  color: #ffffff;
+  padding: 10px 16px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.botao:hover {
+  background: #b82a5c;
+}
+
+.botao.secundario {
+  background: #ffffff;
+  color: #d6336c;
+}
+
+.botao.secundario:hover {
+  background: #ffdeeb;
+}
+
+form {
+  max-width: 500px;
+}
+
+.campo {
+  margin-bottom: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #a61e4d;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f3b8d0;
+  border-radius: 6px;
+  font-size: 15px;
+  background: #ffffff;
+}
+
+input:focus {
+  outline: 2px solid #d6336c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background: #ffffff;
+}
+
+th, td {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid #f3b8d0;
+}
+
+th {
+  background: #ffdeeb;
+  color: #a61e4d;
+}
+
+.excluir {
+  border: 1px solid #c2255c;
+  color: #c2255c;
+  background: #ffffff;
+  padding: 7px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.excluir:hover {
+  background: #ffdeeb;
+}
+
+.mensagem {
+  margin-top: 14px;
+  padding: 10px;
+  background: #ffdeeb;
+  color: #a61e4d;
+  border-radius: 6px;
+}
+
+.vazio {
+  margin-top: 20px;
+  padding: 20px;
+  border: 1px dashed #f3b8d0;
+  background: #ffffff;
+  border-radius: 6px;
+  color: #7a4a5c;
+}
+
+.contador {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #a61e4d;
+}
